@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>JSON</title>
+</head>
+<body>
+    <div class="formModal">
+        <div class="form">
+            <button class="buttonModal"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="formTitle">Agregar categoría</h3>
+            <form id="categoryForm">
+                <input type="text" id="categoryTitle" placeholder="Titulo Categoría" required>
+                <button type="submit">Agregar Categoría</button>
+            </form>
+    
+            <h3 class="formTitle">Agregar articulo</h3>
+            <form id="articleForm">
+                <input type="text" id="articleTitle" placeholder="Titulo Articulo" required>
+                <button type="submit">Agregar Articulo</button>
+            </form>
+        </div>
+    </div>
+    <div class="arbol">
+        <div class="header">
+            <h1>JSON RQL</h1>
+            <button class="buttonForm">Nuevo</button>
+        </div>
+        <div id="jsontree"></div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/304834e23b.js" crossorigin="anonymous"></script>
+</body>
+</html>
